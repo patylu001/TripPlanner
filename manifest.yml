@@ -1,0 +1,14 @@
+applications:
+- domain: mybluemix.net
+  memory: 512M
+  instances: 1
+  name: tripPlanner
+  host: tripPlanner
+  command: npm start
+  disk_quota: 1024M
+  buildpack: sdk-for-nodejs
+  health-check-type: http
+  health-check-http-endpoint: /
+  timeout: 180
+  services:
+  - Db2-tripPlanner

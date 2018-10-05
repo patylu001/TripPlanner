@@ -1,0 +1,25 @@
+{
+  "name": "TripPlanner",
+  "version": "1.0.0",
+  "description": "Cloud project using microservices",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patylu001/TripPlanner.git"
+  },
+  "author": "Patricia Ortegon & Juan Santos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.3",
+    "ibm_db": "^2.2.1",
+    "ibmcloud-appid": "^4.0.0",
+    "log4js": "^3.0.5",
+    "passport": "^0.4.0"
+  }
+}
